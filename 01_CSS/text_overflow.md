@@ -45,32 +45,3 @@ p {
 다른 방법으로 webkit으로 line-clamp을 사용하거나, max-line이라는 프로퍼티를 사용할 수 있는데, 권장되진 않는다고 한다.(https://www.w3.org/TR/css-overflow-3/#propdef-line-clamp)
 
 어차피 줄바꿈을 하려면 담으려는 박스의 크기를 한정하기 때문에(blocked) 충분히 노출되는 줄 수를 조정할 수 있기때문에 굳이 권장되지 않는 프로퍼티를 사용할 필욘 없는 것 같다.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 1. -webkit의 line-clamp
-
-```CSS
-p {
-  width: 300px;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-}
-```
-
-#### Output
-
