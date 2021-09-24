@@ -9,30 +9,6 @@
 - 원형 큐를 통해 처음 할당된 메모리를 연속적으로 활용하는 편이 나음.
 - dequeue와 enqueue로 밀려서 비어진 메모리를 연속적으로 채우며 활용
 
-![Screen Shot 2021-09-22 at 23.39.15](/Users/wontaeyeon/Library/Application Support/typora-user-images/Screen Shot 2021-09-22 at 23.39.15.png)
-
-![Screen Shot 2021-09-22 at 23.39.24](/Users/wontaeyeon/Library/Application Support/typora-user-images/Screen Shot 2021-09-22 at 23.39.24.png)
-
-enqueue()
-
-enqueue()
-
-선형 큐의 오버플로우
-
-![Screen Shot 2021-09-22 at 23.39.36](/Users/wontaeyeon/Library/Application Support/typora-user-images/Screen Shot 2021-09-22 at 23.39.36.png)
-
-원형 큐
-
-![Screen Shot 2021-09-22 at 23.39.48](/Users/wontaeyeon/Library/Application Support/typora-user-images/Screen Shot 2021-09-22 at 23.39.48.png)
-
-이미지 출처
-
-스카웃 님의 네이버 블로그
-
-https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=skout123&logNo=50135743013
-
-
-
 원형 큐 대표문제
 
 https://www.acmicpc.net/problem/1158
