@@ -66,7 +66,7 @@ Component가 UI를 구성할때 `Mounting(그리기)`,`Updating(갱신)`, `Unmou
 
 ## Props와 State
 
-`Component`는 두 가지 인스턴스 속성이 있는데, `props`와 `state`가 있다.이렇게 둘로 나눈 이유는 `props`는 값이 할당 될 뿐, `component`내부에서 값이 변경될 수 없고, 변경이 필요한 값들은 `state`를 이용해야한다는 차이가 있다.
+`Component`는 두 가지 인스턴스 속성이 있는데, `props`와 `state`가 있다.이렇게 둘로 나눈 이유는 `props`는 값이 할당 될 뿐(읽기 전용), `component`내부에서 값이 변경될 수 없고, 변경이 필요한 값들은 `state`를 이용해야한다는 차이가 있다.
 
 `props`가 존재하는 이유는 사용자 이벤트에 맞춰 변경되지 않아도 되는 값들을 분리하여 아래쪽 방향으로만의 영향을 생각하면 되고, `updating`을 할 경우 `state`에 존재하는 `key`들만 검사하면 되기 때문에 퍼포먼스 측면에서도 분리의 이유가 존재한다.
 
