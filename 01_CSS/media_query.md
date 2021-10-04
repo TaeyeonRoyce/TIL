@@ -6,7 +6,7 @@
 
 
 
-## >미디어 쿼리 기본
+## 미디어 쿼리 기본
 
 ### 1. 미디어 유형
 
@@ -77,11 +77,3 @@ ex)
 https://maen2001.tistory.com/22  - 빅범님
 
 해당 사이트에 모바일 웹 제작시 meta태그에 대한 자세한 설정 및 설명이 되어있다.
-
-참조  
-
-- https://developer.mozilla.org/ko/docs/Web/CSS/Media_Queries/Using_media_queries
-
-- https://skydoor2019.tistory.com/8
-
-- https://maen2001.tistory.com/22 
