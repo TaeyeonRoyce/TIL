@@ -8,7 +8,7 @@ public final class String implements java.io.Serializable, Comparable<String>, C
 
 `String`은 문자형 배열을 저장하는 클래스이며, 이를 다룰수 있는 여러 메서드들을 제공한다.
 
-위 코드처럼 `String`은 변경 불가능한 클래스이다.
+ `String`은 변경 불가능한 클래스이다.
 
 ```java
 String a = "A";
