@@ -114,3 +114,20 @@ public class PlayGround{
 
 
 
+> assertNotEquals도 존재한다.
+>
+> 사용방법은 동일하며 메서드 이름에서 알 수 있듯이,
+>
+> assetEquals가 거짓인 테스트에 대해 참을 반환한다.
+>
+> ```java
+> public class PlayGround {
+> 	@Test
+> 	public void Test_1() {
+> 		String A_1 = "A";
+> 		String A_2 = "B";
+> 		Assertions.assertNotEquals(A_1, A_2);
+> 	}
+> }
+> //PASS
+> ```
