@@ -3,8 +3,13 @@
 ```java
 import org.junit.jupiter.api.Assertions;
 
-assertEquals(expected, actual, delta?, String message?)
-  //?는 옵셔널
+
+assertEquals(int expected, int actual, String message?)
+//int타입 말고, byte, short, long, char, Object가 올 수 있음
+  
+assertEquals(float expected, float actual, float delta?, String message?)
+assertEquals(double expected, double actual, double delta?, String message?)
+//?는 옵셔널
 ```
 
 - expected, actual :
@@ -106,7 +111,7 @@ public class PlayGround{
     public void Test_4() {
       Person person1 = new Person("Me");
       Person person2 = new Person("Me");
-      Assertions.assertEquals(person1, person2,"객체 주소로 비교합니다..");
+      Assertions.assertEquals(person1, person2,"객체의 이름으로 비교합니다");
     }
 }
 //PASS
@@ -131,3 +136,88 @@ public class PlayGround{
 > }
 > //PASS
 > ```
+
+
+
+# assertSame()
+
+```java
+import org.junit.jupiter.api.Assertions;
+
+assertSame(Object expected, Object actual, String message?)
+//?는 옵셔널
+```
+
+- expected, actual :
+
+  actual의 참조변수가 expected의 참조변수와 동일한지 체크한다.
+
+  
+
+- message :
+
+  테스트 결과가 실패일 때, 화면에 출력될 메시지
+
+> assertEquals와 거의 유사하지만, 아래의 코드를 통해 참조변수의 비교가 필요한 이유를 알 수 있다.
+>
+> (주로 *equals*가 Override된 경우)
+
+```java
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class Person {
+	String name;
+
+	public Person(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (o instanceof Person) {
+			return this.name == ((Person)o).name;
+		}
+		return false;
+	}
+}
+
+public class PlayGround{
+	Person person1 = new Person("Me");
+	Person person2 = new Person("Me");
+	@Test
+	public void Test_1() {
+		Assertions.assertEquals(person1, person2,"객체의 이름으로 비교합니다.."); //PASS
+	}
+
+	@Test
+	public void Test_2() {
+		Assertions.assertNotSame(person1, person2,"객체 주소로 비교합니다.."); //PASS
+	}
+}
+```
+
+
+
+### ++ 참고
+
+```java
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class PlayGround{
+	@Test
+	public void Test_1() {
+		Assertions.assertSame(100, 100); //PASS
+	}
+
+	@Test
+	public void Test_2() {
+		Assertions.assertNotSame(130, 130); //PASS
+	}
+}
+```
+
+같은 int(기본형)타입의 값을 넣고 assertSame/assertNotSame을 수행했는데 모두 통과가 되었다.
+
+java는 기본적으로 `-127~127`까지의 정수를 생성해두기 때문에 그 사이의 값은 새로운 객체 생성이 되지 않기 때문에 같은 참조변수를 가진다.
