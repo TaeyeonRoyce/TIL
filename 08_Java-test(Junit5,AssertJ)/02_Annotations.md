@@ -159,3 +159,88 @@ public void test() {
 }
 ```
 
+
+
+### @Disabled
+
+- 기존에 있던 테스트 코드나 테스트 클래스를 잠시 비활성화 한다
+
+```java
+@Disabled
+@Test
+public void disabledTest() {}
+```
+
+
+
+### @DisabledIf, EnableIf
+
+- 원하는 조건, 상황에 따라 적용시킬 수 있다.
+
+```java
+@Test
+@EnabledIf("testTure")
+void enabled() {
+  // ... 
+} 
+
+@Test
+@DisabledIf("testTure")
+void disabled() {
+  // ...
+} 
+
+boolean testTure() { return true; }
+```
+
+
+
+### @Order
+
+- 테스트의 순서는 보장되어있지 않다. 위에서부터 아래로 실행되는 것이 아니다.
+
+- 이런 보장되어있지 않는 테스트에 순서를 부여할 수 있다.
+
+```java
+@Order(3)
+@Test
+public void Test_3() {
+  System.out.println("A")
+}
+
+@Order(1)
+@Test
+public void Test_1() {
+  System.out.println("B")
+}
+
+@Order(2)
+@Test
+public void Test_2() {
+  System.out.println("C")
+}
+
+//B
+//C
+//A
+```
+
+
+
+### @RepeatedTest
+
+- 테스트 코드 반복
+
+```java
+@RepeatedTest(5)
+@Test
+public void Test_1() {
+  System.out.println("A")
+}
+//A
+//A
+//A
+//A
+//A
+```
+
