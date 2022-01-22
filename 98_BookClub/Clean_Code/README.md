@@ -17,6 +17,8 @@
 ## Book Report
 
 > [**추천사 & 들어가면서 (xxii ~)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_01.md)
+>
+> [**1장. 깨끗한 코드 (p.1 ~)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_02.md)
 
  
 
