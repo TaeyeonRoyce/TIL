@@ -18,7 +18,9 @@
 
 > [**추천사 & 들어가면서 (xxii ~)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_01.md)
 >
-> [**1장. 깨끗한 코드 (p.1 ~)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_02.md)
+> [**1장. 깨끗한 코드 (p.1 ~ p.20)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_02.md)
+>
+> [**2장. 의미있는 이름 (p.21 ~ p.38)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_03.md)
 
  
 
