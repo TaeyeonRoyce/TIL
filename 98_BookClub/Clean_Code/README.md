@@ -23,6 +23,8 @@
 > [**2장. 의미있는 이름 (p.21 ~ p.38)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_03.md)
 >
 > [**3장. 함수(p.40 ~ p.65)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_04.md)
+>
+> [**4장. 주석(p.68 ~ p.94)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_05.md)
 
  
 
