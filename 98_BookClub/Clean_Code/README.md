@@ -27,6 +27,8 @@
 > [**4장. 주석(p.68 ~ p.94)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_05.md)
 >
 > [**5장. 형식 맞추기(p.96 ~ p.116)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_06.md)
+>
+> [**6장. 객체와 자료구조(p.118 ~ p.128)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_07.md)
 
  
 
