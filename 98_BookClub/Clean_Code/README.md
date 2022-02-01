@@ -25,6 +25,8 @@
 > [**3장. 함수(p.40 ~ p.65)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_04.md)
 >
 > [**4장. 주석(p.68 ~ p.94)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_05.md)
+>
+> [**5장. 형식 맞추기(p.96 ~ p.116)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_06.md)
 
  
 
