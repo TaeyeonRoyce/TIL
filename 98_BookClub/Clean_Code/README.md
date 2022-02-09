@@ -33,6 +33,8 @@
 > [**7장. 오류 처리(p.130 ~ p.142)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_08.md)
 >
 > [**9장. 단위 테스트(p.153 ~ p.169)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_09.md)
+>
+> [**10장. 클래스(p.171 ~ p.191)**](https://github.com/TaeyeonRoyce/TIL/blob/master/98_BookClub/Clean_Code/Day_10.md)
 
  
 
