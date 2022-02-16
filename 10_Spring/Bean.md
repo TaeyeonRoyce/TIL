@@ -180,17 +180,21 @@ public void Test() {
 
 
 
-### 더 알아볼 내용 
+### 🔎 더 알아볼 내용 
 
 - `@ComponentScan`
+
 - Bean조회에 대한 개념 학습 필요
   @Component로 등록한 Bean에 대한 조회시 싱글톤/싱글톤X 구분 가능 로직에 대한 어려움을 겪음
+
 - ` ApplicationContext ac = new AnnotationConfigApplicationContext(TestConfiguration.class);`
   Container처럼 사용되는 것 같은데 이에 대해서도 알아보자.
-- `IoC Container`의 `Life Cycle`
-- 
 
-### 의문점
+- `IoC Container`의 `Life Cycle`
+
+  
+
+### ❓의문점
 
 - 싱글톤으로 관리되는 Bean들에 대한 동시성 이슈는 어떻게 관리하는지
 - `@Componenet` 와 `@Bean` 으로 등록하는 방식의 차이점
