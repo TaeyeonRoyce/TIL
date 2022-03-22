@@ -164,3 +164,4 @@ from : https://gyoogle.dev/blog/computer-science/data-base/SQL%20&%20NOSQL.html
 - 데이터 중복으로 인한 수정 작업의 번거로움
 
 from : https://sujl95.tistory.com/83
+
