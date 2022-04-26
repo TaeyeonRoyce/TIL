@@ -169,7 +169,7 @@ cat decrypted.txt
 
  
 
-## SSL HandShake란 무엇일까요?
+## SSL HandShake란
 
 HTTPS로 통신을 하기 위해서는 아래와 같이 `클라이언트 - 서버`가 `악수(HandShake)` 과정을 거치게 된다.
 
