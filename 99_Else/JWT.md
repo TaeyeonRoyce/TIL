@@ -12,7 +12,7 @@ Connectionless, Stateless 특징을 가지는 HTTP를 활용하 통신을 하는
 
 ## JWT 구성요소
 
-![img](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/99e796bf-12ca-404a-a0b0-66576a62f907/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220505%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220505T061915Z&X-Amz-Expires=86400&X-Amz-Signature=5a89aa44900557e3ce202f1d228434a7b0d958b8d4218de1f8c6509af3a3d238&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![img](https://github.com/KoEonYack/Tistory-Coveant/blob/master/Article/WebTech/jwt%EB%9E%80/img/c_2.PNG?raw=true)
 
 JWT는 Header, Payload, Signature의 3부분으로 이루어지며, Json포맷인 각 부분은 Base64Url로 인코딩 되어 표현된다. 각 부분은 `.` 으로 구분되어있다.
 
