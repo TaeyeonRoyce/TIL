@@ -139,3 +139,7 @@ int InsertSort(int arr[], int n) {
 참고 이미지 (from https://wonjayk.tistory.com/218)
 
 ![img](https://t1.daumcdn.net/cfile/tistory/2569FD3854508BE811)
+
+### 성능 평가
+
+$O(n^2)$
