@@ -111,3 +111,17 @@ BufferedReader {
 
 Scanner와 BufferedReader의 수행시간 차이
 출처 : https://algospot.com/forum/read/2496/
+
+
+
+
+
+
+
+> 참고 글:
+>
+> https://velog.io/@kkimbj18/%EB%B2%84%ED%8D%BC%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-Feat.-BufferedReader-vs-Scanner-cache
+>
+> https://onlyfor-me-blog.tistory.com/368
+>
+> https://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html
